@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "b50ab554-9130-4dac-8022-8c2cdeca822c",
+		"name": "Config-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30358356"
+	},
+	"item": [
+		{
+			"name": "sans-profil",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "avec-profil",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update-serve",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http::/localhost:9090/address-service/actuator/refresh",
+					"host": [
+						"http:"
+					],
+					"port": "",
+					"path": [
+						"localhost:9090",
+						"address-service",
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
